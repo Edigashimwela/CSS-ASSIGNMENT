@@ -1,0 +1,19 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.paragraph {
+    padding: 20px;
+    position: relative; /* Set paragraph position to relative */
+}
+
+.inline-image {
+    position: absolute;
+    padding: 14px;
+    height: 120px;
+    top: -20px; /* Adjust the position from top */
+    right: -20px; /* Adjust the position from right */
+    border: 2px solid black; /* Optional border for the image */
+}
